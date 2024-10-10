@@ -16,10 +16,16 @@ def program_4():
     # Задача 4 "Первый после точки"
     print(int(float("123.456") * 10) % 10)
 
-
+def program_12():
+    print('Hi, PyCharm')
+    x = 43
+    y = 32
+    print(x * y)
+    print("End line")
 
 if __name__ == '__main__':
     program_1()
     program_2()
     program_3()
     program_4()
+    program_12()
